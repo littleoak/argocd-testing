@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         #- image: gcr.io/google-samples/gb-frontend:v5
-        - image: gcr.io/google-samples/echo-php:v1
+        - image: gcr.io/google-containers/echoserver:1.10
           name: guestbook-ui
           ports:
             - containerPort: 80
