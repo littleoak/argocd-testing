@@ -14,8 +14,8 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-        #- image: gcr.io/google-samples/gb-frontend:v5
-        - image: nginx:trixie-perl
+        - image: gcr.io/google-samples/gb-frontend:v5
+        #- image: nginx:trixie-perl
           name: guestbook-ui
           ports:
             - containerPort: 80
