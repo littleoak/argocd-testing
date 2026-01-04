@@ -14,7 +14,8 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-        - image: gcr.io/google-samples/gb-frontend:v5
+        #- image: gcr.io/google-samples/gb-frontend:v5
+        - image: gcr.io/google-samples/hello-frontend:1.0
           name: guestbook-ui
           ports:
             - containerPort: 80
